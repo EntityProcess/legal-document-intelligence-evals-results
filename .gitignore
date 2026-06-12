@@ -1,0 +1,9 @@
+.env
+.env.*
+*.local
+.DS_Store
+node_modules/
+logs/
+tmp/
+
+# Keep result artifacts intentional: stage explicit .agentv/results paths only.
