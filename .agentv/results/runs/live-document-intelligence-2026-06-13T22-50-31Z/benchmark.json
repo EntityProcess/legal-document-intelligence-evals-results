@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "eval_file": "evals/legal-document-agent.eval.yaml",
+    "timestamp": "2026-06-13T22:52:58.879Z",
+    "targets": [
+      "legal-document-agent-stateful-swarm"
+    ],
+    "tests_run": [
+      "banking-finance-compare-credit-agreement-against-term-sheet",
+      "corporate-ma-extract-change-of-control-provisions",
+      "data-privacy-cybersecurity-assess-breach-notification-obligations-across-affected-jurisdictions",
+      "litigation-dispute-resolution-compare-document-production-against-discovery-requests"
+    ],
+    "experiment": "default",
+    "planned_test_count": 4
+  },
+  "run_summary": {
+    "legal-document-agent-stateful-swarm": {
+      "pass_rate": {
+        "mean": 0,
+        "stddev": 0
+      },
+      "time_seconds": {
+        "mean": 131.12,
+        "stddev": 16.386
+      },
+      "tokens": {
+        "mean": 0,
+        "stddev": 0
+      }
+    }
+  },
+  "per_grader_summary": {
+    "harvey-lab-rubric:llm-grader": {
+      "mean": 0.399,
+      "stddev": 0.094
+    }
+  },
+  "notes": []
+}
