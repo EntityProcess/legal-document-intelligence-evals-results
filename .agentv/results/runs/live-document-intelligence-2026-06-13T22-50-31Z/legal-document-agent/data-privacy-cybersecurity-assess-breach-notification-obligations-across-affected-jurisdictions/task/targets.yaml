@@ -3,11 +3,11 @@ targets:
     use_target: legal-document-agent-stateful-swarm
   - name: legal-document-agent-stateful-swarm
     provider: cli
-    command: bun run "${LEGAL_DOCUMENT_EVALS_ROOT:?Set LEGAL_DOCUMENT_EVALS_ROOT to this legal-document-agent-evals checkout}/scripts/run-stateful-swarm-agentv-target.ts" --eval-id {EVAL_ID} --prompt-file {PROMPT_FILE} --output-file {OUTPUT_FILE}
+    command: bun run "${LEGAL_DOCUMENT_EVALS_ROOT:?Set LEGAL_DOCUMENT_EVALS_ROOT to this legal-document-intelligence-evals checkout}/scripts/run-stateful-swarm-agentv-target.ts" --eval-id {EVAL_ID} --prompt-file {PROMPT_FILE} --output-file {OUTPUT_FILE}
     timeout_seconds: 7200
     grader_target: grader
     healthcheck:
-      command: bun run "${LEGAL_DOCUMENT_EVALS_ROOT:?Set LEGAL_DOCUMENT_EVALS_ROOT to this legal-document-agent-evals checkout}/scripts/run-stateful-swarm-agentv-target.ts" --check-only
+      command: bun run "${LEGAL_DOCUMENT_EVALS_ROOT:?Set LEGAL_DOCUMENT_EVALS_ROOT to this legal-document-intelligence-evals checkout}/scripts/run-stateful-swarm-agentv-target.ts" --check-only
       timeout_seconds: 60
   - name: grader
     use_target: ${{ GRADER_TARGET }}

@@ -1,7 +1,7 @@
 # Live document-intelligence eval results
 
 Run: `live-document-intelligence-2026-06-13T22-50-31Z`  
-Source PR: https://github.com/EntityProcess/legal-document-agent-evals/pull/1  
+Source PR: https://github.com/EntityProcess/legal-document-intelligence-evals/pull/1
 Target: `document-intelligence` / `legal-document-agent-stateful-swarm`  
 Provider: local OpenAI-compatible endpoint, endpoint and key not published; model `gpt-5.4-mini`  
 Result: 4/4 cases completed with `execution_status: ok`; mean score 40.0%.

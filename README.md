@@ -1,8 +1,8 @@
-# legal-document-agent-evals-results
+# legal-document-intelligence-evals-results
 
-Public-safe AgentV result artifacts for the `legal-document-agent-evals` project.
+Public-safe AgentV result artifacts for the `legal-document-intelligence-evals` project.
 
-Source eval definitions live in `EntityProcess/legal-document-agent-evals`. This repository stores Dashboard-ready artifacts under `.agentv/results/runs/` only.
+Source eval definitions live in `EntityProcess/legal-document-intelligence-evals`. This repository stores Dashboard-ready artifacts under `.agentv/results/runs/` only.
 
 Before pushing live artifacts, run a public-artifact leakage check for:
 
@@ -18,8 +18,9 @@ Writer credentials should come from a local git/gh session or a token scoped onl
 ## Static HTML report
 
 - [Dashboard-style static report](docs/index.html) — generated with `agentv results report .agentv/results/runs/live-document-intelligence-2026-06-13T22-50-31Z --out docs/index.html`.
+- Published GitHub Pages URL: https://entityprocess.github.io/legal-document-intelligence-evals-results/
 
-If GitHub Pages is enabled for this repository's `docs/` directory, the same report can be served as the project homepage. The HTML is self-contained and read-only; no AgentV Dashboard server is required.
+GitHub Pages serves the `docs/` directory as the project homepage. The HTML is self-contained and read-only; no AgentV Dashboard server is required.
 
 ## Layout
 
