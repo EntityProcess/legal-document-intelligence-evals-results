@@ -15,6 +15,12 @@ Before pushing live artifacts, run a public-artifact leakage check for:
 
 Writer credentials should come from a local git/gh session or a token scoped only to this repository where possible. Reader mode is anonymous HTTPS clone/pull.
 
+## Static HTML report
+
+- [Dashboard-style static report](docs/index.html) — generated with `agentv results report .agentv/results/runs/live-document-intelligence-2026-06-13T22-50-31Z --out docs/index.html`.
+
+If GitHub Pages is enabled for this repository's `docs/` directory, the same report can be served as the project homepage. The HTML is self-contained and read-only; no AgentV Dashboard server is required.
+
 ## Layout
 
 ```text

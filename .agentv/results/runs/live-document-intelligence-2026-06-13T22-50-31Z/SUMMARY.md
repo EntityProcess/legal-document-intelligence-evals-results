@@ -15,6 +15,10 @@ This is a green live integration check for the AgentV-native document-intelligen
 | `data-privacy-cybersecurity-assess-breach-notification-obligations-across-affected-jurisdictions` | 43.5% | 20/46 | `documents/client-notification-email-thread.eml` |
 | `banking-finance-compare-credit-agreement-against-term-sheet` | 48.5% | 16/33 | `documents/lender-counsel-transmittal.eml` |
 
+## Static HTML report
+
+- [`docs/index.html`](../../../../docs/index.html) renders this run as a read-only, Dashboard-style AgentV report suitable for GitHub Pages.
+
 ## Published artifacts
 
 - `index.jsonl` — AgentV per-case result index and grader summaries.
